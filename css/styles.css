@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #dd765b;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #dd765b;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  max-width: 1360px;
+}
+
+.logo-section {
+  margin-left: 40px;
+}
+
+.sections {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sections a {
+  text-decoration: none;
+  color: #461306;
+  margin-left: 10px;
+}
+
+.sections button {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e84b23;
+}
+
+.hero-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.hero-section {
+  width: 100%;
+  height: calc(100vh);
+  background-color: white;
+  background-image: url("../assets/school-hero.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  max-width: 1360px;
+}
+
+.hero-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 48px;
+  height: 80%;
+}
+
+.hero-section .hero-items div button {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e84b23;
+}
